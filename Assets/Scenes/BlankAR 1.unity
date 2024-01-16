@@ -487,6 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1659859599}
   - component: {fileID: 1659859601}
+  - component: {fileID: 1659859602}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -527,6 +528,21 @@ MonoBehaviour:
   m_CameraFloorOffsetObject: {fileID: 0}
   m_RequestedTrackingOriginMode: 1
   m_CameraYOffset: 1.1176
+--- !u!114 &1659859602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659859597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FacePrefab: {fileID: 395209283591344852, guid: 371dda14ac7cb41bf88b42cc4f94ec9e,
+    type: 3}
+  m_MaximumFaceCount: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
