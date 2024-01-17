@@ -5,6 +5,7 @@ using UnityEngine.XR.ARFoundation;
 
 public class LenteManager : MonoBehaviour
 {
+    public Material[] materiales;
     public void SeleccionLentes(int numeroLente)
     {
         GameObject cara = FindObjectOfType<ARFace>().gameObject;
@@ -18,5 +19,10 @@ public class LenteManager : MonoBehaviour
             //activar el lente seleccionado
             lentesManager.GetChild(i).gameObject.SetActive(i == numeroLente);
         }
+    }
+
+    public void CambioColorArmazon(int colorSeleccionado)
+    {
+
     }
 }
